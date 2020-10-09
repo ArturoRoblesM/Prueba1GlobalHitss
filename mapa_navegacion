@@ -1,0 +1,70 @@
+	index
+	-----
+	  |
+-----------
+|
+--perfil----
+|           |=> nombre
+|	    |=> mail	
+|
+--cliente---
+|           |=> telefono
+|           |=> medidas
+|           |=> nombre
+|           |=> correo
+|           |=> factura
+|           |=> producto
+|           |=> anticipo
+|           |=> adeuda
+|           |=> total
+--provedores---
+|              |=> nombreProducto
+|              |=> cantidad
+|              |=> precio
+|              |=> confirmacionDePedido
+|              |=> observaciones
+|              |=> numCuenta
+|              |=> depositos(pagos)
+|              |=> correo
+|              |=> anticipo
+|              |=> adeuda
+|              |=> total
+|              |=> factura
+--producto--
+|           |=> nombreProducto
+|           |=> tipo
+ 	            |=> camisas
+ 	            |=> pantalones
+ 	            |=> chalecos
+ 	            |=> chaquetillas
+	            |=> botines
+ 	            |=> moños
+ 	            |=> botones
+	            |=> sobrero
+ 	            |=> cinturones
+|           |=> descripcion
+|           |=> costo
+|           |=> cantidad
+|           |=> factura-con historialCliente(que es eso?)
+|           |=> destino(a que se refiere?)
+|           |=> numero de facturas(que pedo con eso?)
+|           |=> fechas(fechas de que?)
+|           |=> 
+--deudores--
+|           |=> clientes con pagos vencidos
+--pagos--
+|        |=>pagos entran en cliente
+|
+--pendientes--
+|             |=>pendientes "pendiente
+|
+--pedidos--
+|          |=> numero pedido
+|	   |=> fecha
+|	   |=> producto
+|	   |=> cliente
+|	   |=> factura
+|	   |=> saldos clientes(eso a que se refiere?)
+|
+--fin de sesion--
+|	         |=> salir del sistema
